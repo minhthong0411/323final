@@ -86,8 +86,7 @@ SELECT * FROM SKILLREPAIR;
 
 --15
 SELECT empID, fname, lname from employee natural join technician natural join 
-        mechanic
-        WHERE techinician.empID = mechanic.empID;
+        mechanic;
 
 
 /*team querries*/
